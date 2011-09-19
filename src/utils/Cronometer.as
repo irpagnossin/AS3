@@ -4,7 +4,7 @@
   data: 2006.01.20
   copyright: viavoip
  */
-package irpagnossin.utils
+package utils
 {
 	import flash.utils.getTimer;
 

@@ -1,4 +1,4 @@
-package irpagnossin.utils
+package utils
 {
 	/**
 	 * Retorna a distância de Levenshtein entre duas strings.

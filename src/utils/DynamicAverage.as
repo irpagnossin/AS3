@@ -1,4 +1,4 @@
-﻿package irpagnossin.utils
+﻿package utils
 {
 	/**
 	 * Esta classe permite ao usuário manter o valor médio dos últimos <code>n</code> itens adicionados a ela.

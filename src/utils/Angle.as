@@ -1,6 +1,6 @@
-package irpagnossin.utils
+package utils
 {
-	import irpagnossin.interfaces.Serializable;
+	import interfaces.Serializable;
 	
 	/**
 	 * A classe <code>Angle</code> representa um ângulo, em graus ou em radianos, no intervalo [-π,+π[ ou [0,+2π[.
@@ -144,7 +144,7 @@ package irpagnossin.utils
 		 * @return	A serialização do ângulo.
 		 * @see deserialize
 		 */
-		public function serialize () : String
+		public function get serialization () : String
 		{
 			return "_radians:" + _radians + "\t_domain:" + _domain;
 		}
@@ -154,7 +154,7 @@ package irpagnossin.utils
 		 * @param	serialization	Serialização, criada pelo método <code>serialize()</code>.
 		 * @see serialize
 		 */
-		public function deserialize (serialization:String) : void
+		public function set serialization (serialization:String) : void
 		{
 			var properties:Array = serialization.split("\t");
 			var error:Error = new Error("Isto não é um ângulo (Angle).");
