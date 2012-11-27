@@ -1,6 +1,5 @@
 package math.integration
 {
-	import flash.geom.Point;
 	
 	/**
 	 * @param	a Lower limit of integration.
